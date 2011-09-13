@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Homepage Template - WBG Templates</title>  
+  <title><?php print $head_title; ?></title>  
 <!-- SEO relevant meta data to describe content of page -->
   <meta name="DC.Title" content="">
   <meta name="keywords" content="">
@@ -41,7 +41,7 @@
 
 
 </head>
-<body class="headingblock no-logo home">
+<body class="<?php print $body_classes; ?>">
   <?php print $page; ?>
 </body>
 </html>
