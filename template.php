@@ -16,5 +16,7 @@
  */
 function unimelb_preprocess_html(&$variables, $hook) {
 	drupal_add_css("http://brand.unimelb.edu.au/web-templates/1-0-0/css/complete.css", "external");
+	drupal_add_js("http://brand.unimelb.edu.au/web-templates/1-0-0/js/complete.js", "external");
+	drupal_add_js("http://brand.unimelb.edu.au/global-header/js/injection.js", "external");
 
 }

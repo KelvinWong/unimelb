@@ -6,9 +6,6 @@ core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/custom.css
 
-scripts[] = http://brand.unimelb.edu.au/web-templates/1-0-0/js/complete.js
-scripts[] = http://brand.unimelb.edu.au/global-header/js/injection.js
-
 regions[header]     = Header
 regions[newsbanner] = Newsbanner
 regions[content]    = Content
