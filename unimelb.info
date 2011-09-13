@@ -1,5 +1,5 @@
 ; $Id: unimelb.info,v 1.0 2011/09/13 00:00:00 media insights Exp $
-name = Unimelb 7.x-1.x-dev
+name = Unimelb
 description = Web Branding for The University of Melbourne is defined by the <a href="http://marcom.unimelb.edu.au">Marketing and Communications Web Team</a>. 
 package = Core
 core = 7.x
