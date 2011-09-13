@@ -11,6 +11,6 @@
 }
 
 /* admin-menu fix */
-#admin-menu ul{
+#admin-menu{
 	z-index: 1001;
 }
