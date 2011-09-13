@@ -35,13 +35,9 @@
 <!-- End meta data to be autofilled -->
   <meta content="width=device-width; initial-scale=0.67;" name="viewport">
 
-  <!-- GLOBAL RESOURCES -->
-  <!-- DO NOT CHANGE -->
-    <link rel="stylesheet" href="http://brand.unimelb.edu.au/web-templates/1-0-0/css/complete.css">
-    <script src="http://brand.unimelb.edu.au/web-templates/1-0-0/js/complete.js"></script>
-    <script src="http://brand.unimelb.edu.au/global-header/js/injection.js"></script>
-  <!-- /GLOBAL RESOURCES -->
-  <link rel="stylesheet" href="./css/custom.css" media="screen">
+  <?php print $styles; ?>
+  <?php print $scripts; ?>
+
 
 
 </head>
