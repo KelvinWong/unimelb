@@ -1,0 +1,18 @@
+; $Id: unimelb.info,v 1.0 2011/09/13 00:00:00 media insights Exp $
+name = Unimelb 7.x-1.x-dev
+description = Web Branding for The University of Melbourne is defined by the <a href="http://marcom.unimelb.edu.au">Marketing and Communications Web Team</a>. 
+package = Core
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = http://brand.unimelb.edu.au/web-templates/1-0-0/css/complete.css
+
+scripts[] = http://brand.unimelb.edu.au/web-templates/1-0-0/js/complete.js
+scripts[] = http://brand.unimelb.edu.au/global-header/js/injection.js
+
+regions[header]     = Header
+regions[newsbanner] = Newsbanner
+regions[content]    = Content
+regions[aside]      = Aside
+regions[footer]     = Footer
+regions[footernav]  = Footer Nav
