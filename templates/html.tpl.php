@@ -41,7 +41,7 @@
 
 
 </head>
-<body class="<?php print $body_classes; ?>">
+<body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php print $page; ?>
 </body>
 </html>
