@@ -53,13 +53,13 @@
  *   comment/reply/12345).
  *
  * Regions:
- * - $page['help']: Dynamic help text, mostly for admin pages.
- * - $page['highlighted']: Items for the highlighted content region.
- * - $page['content']: The main content of the current page.
- * - $page['sidebar_first']: Items for the first sidebar.
- * - $page['sidebar_second']: Items for the second sidebar.
- * - $page['header']: Items for the header region.
- * - $page['footer']: Items for the footer region.
+ * - $page['header']: Dynamic help text, mostly for admin pages.
+ * - $page['headingtext']: Items for the highlighted content region.
+ * - $page['newsbanner']: The main content of the current page.
+ * - $page['content']: Items for the first sidebar.
+ * - $page['aside']: Items for the second sidebar.
+ * - $page['footer']: Items for the header region.
+ * - $page['footernav']: Items for the footer region.
  *
  * @see template_preprocess()
  * @see template_preprocess_page()
@@ -76,8 +76,7 @@
         <h1><?php print $site_name; ?></h1>
       </div>
       <div id="headingtext">
-        <p class="title col-1">Who we are</p>
-        <p class="col-5">A pioneering research university, The University of Melbourne has the largest cohort of research students in&nbsp;Australia</p>
+	    <?php print render($page['headingtext']); ?>
         <hr>
       </div>
     </div>

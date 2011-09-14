@@ -14,3 +14,9 @@
 #admin-menu{
 	z-index: 1001;
 }
+
+/* toolbar fix */
+#toolbar{
+	z-index: 1001;
+    border: 1px solid #0f0;
+}
