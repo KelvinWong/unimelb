@@ -127,63 +127,17 @@
     </div>
 
     <div class="main col-6" id="main-content" role="main">
-      <h2>Our Programs</h2>
 
-        <!-- <div class="col-6 first pullout">
-          <ul class="col-2 first">
-            <li><a href="#">Master of <strong>Foo</strong></a></li>
-            <li><a href="#">Doctor of <strong>Optometry</strong></a></li>
-            <li><a href="#">Master of <strong>Philosophy</strong></a></li>
-            <li><a href="#">Doctor of <strong>Philosophy</strong> (PhD)</a></li>
-          </ul>
-          <ul class="col-2">
-            <li><a href="#">Master of <strong>Foo</strong></a></li>
-            <li><a href="#">Doctor of <strong>Optometry</strong></a></li>
-            <li><a href="#">Master of <strong>Philosophy</strong></a></li>
-            <li><a href="#">Doctor of <strong>Philosophy</strong> (PhD)</a></li>
-          </ul>
-          <ul class="col-2">
-            <li><a href="#">Master of <strong>Foo</strong></a></li>
-            <li><a href="#">Doctor of <strong>Optometry</strong></a></li>
-            <li><a href="#">Master of <strong>Philosophy</strong></a></li>
-            <li><a href="#">Doctor of <strong>Philosophy</strong> (PhD)</a></li>
-          </ul>
-        </div> -->
-
-
-      <div class="col-2 first page-preview">
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-      </div>
-      <div class="col-2 page-preview">
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-      </div>
-      <div class="col-2 page-preview">
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-
-        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
-        <h2>Meet our students</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        <a href="#" class="button">Read more</a></p>
-      </div>
+	    <?php print $messages; ?>
+		<a id="main-content"></a>
+        <?php print render($title_prefix); ?>
+        <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+        <?php print render($title_suffix); ?>
+        <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
+        <?php print render($page['help']); ?>
+        <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
+        <?php print render($page['content']); ?>
+        <?php print $feed_icons; ?>
     </div>
 
     <div class="aside col-2">
