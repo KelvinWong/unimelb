@@ -17,5 +17,20 @@
 
 /* toolbar fix */
 #toolbar{
-	z-index: 1001;
+	z-index: 1004;
+}
+
+/* overlay fix */
+#overlay-container, .overlay-modal-background{
+    z-index: 1002;
+}
+
+.overlay-element{
+    z-index: 1003;
+}
+
+html.overlay-open body{
+    top: 0 !important;
+    margin-top: 60px !important;
+	position: inherit !important;
 }

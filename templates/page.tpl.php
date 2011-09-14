@@ -85,7 +85,7 @@
       <div id="banner-clip">
         <div id="banner-wrapper">
           <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-92"><img src="images/page-preview.png" height="100%" width="100%" alt="newsbanner feature"></a>
+            <a href="http://newsroom.melbourne.edu/studio/ep-92"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
             <div class="banner-text">
               <h2><a href="http://newsroom.melbourne.edu/studio/ep-92">Graduate Access Melbourne</a></h2>
               <p><a href="http://newsroom.melbourne.edu/studio/ep-92">From February 22–25<br>
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-91"><img src="images/page-preview.png" height="100%" width="100%" alt="newsbanner feature"></a>
+            <a href="http://newsroom.melbourne.edu/studio/ep-91"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
             <div class="banner-text">
               <h2><a href="http://newsroom.melbourne.edu/studio/ep-91">Orientation 2011</a></h2>
               <p><a href="http://newsroom.melbourne.edu/studio/ep-91">From January 22–25<br>
@@ -101,7 +101,7 @@
             </div>
           </div>
           <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="images/page-preview.png" height="100%" width="100%" alt="newsbanner feature"></a>
+            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
             <div class="banner-text">
               <h2><a href="http://newsroom.melbourne.edu/studio/ep-90">Committed to Excellence</a></h2>
               <p><a href="http://newsroom.melbourne.edu/studio/ep-90">From March 22–25<br>
@@ -109,7 +109,7 @@
             </div>
           </div>
           <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="images/page-preview.png" height="100%" width="100%" alt="newsbanner feature"></a>
+            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
             <div class="banner-text">
               <h2><a href="http://newsroom.melbourne.edu/studio/ep-90">Go Triple Helix</a></h2>
               <p><a href="http://newsroom.melbourne.edu/studio/ep-90">From April 22–25<br>
@@ -152,34 +152,34 @@
 
 
       <div class="col-2 first page-preview">
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>
 
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>
       </div>
       <div class="col-2 page-preview">
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>
 
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>
       </div>
       <div class="col-2 page-preview">
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>
 
-        <img src="./images/page-preview.png" alt="">
+        <img src="./<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" alt="">
         <h2>Meet our students</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         <a href="#" class="button">Read more</a></p>

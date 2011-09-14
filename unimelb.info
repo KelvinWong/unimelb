@@ -13,3 +13,5 @@ regions[content]    = Content
 regions[aside]      = Aside
 regions[footer]     = Footer
 regions[footernav]  = Footer Nav
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom

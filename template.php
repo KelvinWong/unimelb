@@ -4,7 +4,7 @@
  * Contains theme override functions and preprocess functions for the Unimelb theme.
  *
  */
- 
+
  
 /**
  * Override or insert variables into the html template.
@@ -29,10 +29,6 @@ function unimelb_preprocess_html(&$variables, $hook) {
 	
 	//??? not sure what is headingblock
 	$variables['classes_array'][] = "headingblock";
-
-
-	
 	/* */
-	
 
 }
