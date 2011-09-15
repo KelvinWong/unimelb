@@ -46,3 +46,20 @@ div.error {
 input.error{
     background: none;
 }
+
+/* set warning to the style of .message in uni template */
+div.warning {
+    display: block;
+    background: #F9F9F9 url("../images/message-bg.png") 2% 50% no-repeat;
+    padding: 25px 20px 25px 95px;
+    margin: 0 0 20px;
+    border: 1px solid #C6C6C6;
+    color: #444;
+}
+
+/* set status to the style of .alert in uni template */
+div.status{
+    color: #024;
+    background: #FAFCFF url("../images/alert-bg.png") 2% 50% no-repeat;
+    border: 1px solid #AFC4E4;
+}
