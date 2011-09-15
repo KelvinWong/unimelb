@@ -75,10 +75,8 @@
         <!-- <p><a href="#">The Faculty of Bar</a></p> -->
         <h1><?php print $site_name; ?></h1>
       </div>
-      <div id="headingtext">
-	    <?php print render($page['headingtext']); ?>
-        <hr>
-      </div>
+
+      <?php print render($page['headingtext']); ?>
     </div>
     
 	<?php print render($page['newsbanner']); ?>

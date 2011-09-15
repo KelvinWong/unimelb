@@ -27,7 +27,8 @@
  */
 ?>
 <?php if ($content): ?>
-  <div class="<?php print $classes; ?>">
+  <div id="<?php print $region; ?>" class="<?php print $classes; ?>">
     <?php print $content; ?>
+    <hr />
   </div>
 <?php endif; ?>
