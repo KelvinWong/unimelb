@@ -23,10 +23,12 @@ function unimelb_preprocess_html(&$variables, $hook) {
 	$variables['classes_array'][] = "no-logo";
 	
 	// add home if is front page
-	if(drupal_is_front_page()) $variables['classes_array'][] = "home";
+	if(drupal_is_front_page()) $variables['classes_array'][] = "home"; else $variables['classes_array'][] = "blue";
 	
 	//??? not sure what is headingblock
 	$variables['classes_array'][] = "headingblock";
+	
+	
 	/* */
 
 }
