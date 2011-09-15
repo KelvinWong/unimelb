@@ -63,3 +63,8 @@ div.status{
     background: #FAFCFF url("../images/alert-bg.png") 2% 50% no-repeat;
     border: 1px solid #AFC4E4;
 }
+
+/* Left align form labels. We use .form-item to distinguish drupal form from uni form */
+form .form-item label{
+    text-align: left;
+}
