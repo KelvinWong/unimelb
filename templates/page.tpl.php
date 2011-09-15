@@ -80,51 +80,8 @@
         <hr>
       </div>
     </div>
-
-    <div id="newsbanner">
-      <div id="banner-clip">
-        <div id="banner-wrapper">
-          <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-92"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
-            <div class="banner-text">
-              <h2><a href="http://newsroom.melbourne.edu/studio/ep-92">Graduate Access Melbourne</a></h2>
-              <p><a href="http://newsroom.melbourne.edu/studio/ep-92">From February 22–25<br>
-                Get involved, get connected</a></p>
-            </div>
-          </div>
-          <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-91"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
-            <div class="banner-text">
-              <h2><a href="http://newsroom.melbourne.edu/studio/ep-91">Orientation 2011</a></h2>
-              <p><a href="http://newsroom.melbourne.edu/studio/ep-91">From January 22–25<br>
-                Come and explore our campus</a></p>
-            </div>
-          </div>
-          <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
-            <div class="banner-text">
-              <h2><a href="http://newsroom.melbourne.edu/studio/ep-90">Committed to Excellence</a></h2>
-              <p><a href="http://newsroom.melbourne.edu/studio/ep-90">From March 22–25<br>
-                We really are committed to excellence</a></p>
-            </div>
-          </div>
-          <div class="banner">
-            <a href="http://newsroom.melbourne.edu/studio/ep-90"><img src="<?php print base_path().path_to_theme()."/images/page-preview.png"; ?>" height="100%" width="100%" alt="newsbanner feature"></a>
-            <div class="banner-text">
-              <h2><a href="http://newsroom.melbourne.edu/studio/ep-90">Go Triple Helix</a></h2>
-              <p><a href="http://newsroom.melbourne.edu/studio/ep-90">From April 22–25<br>
-               DNA is useful</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ol>
-        <li><a href="http://newsroom.melbourne.edu/studio/ep-92" tabindex="-1">Graduate Access Melbourne</a></li>
-        <li><a href="http://newsroom.melbourne.edu/studio/ep-91" tabindex="-1">Orientation 2011</a></li>
-        <li><a href="http://newsroom.melbourne.edu/studio/ep-90" tabindex="-1">Committed to Excellence</a></li>
-        <li><a href="http://newsroom.melbourne.edu/studio/ep-89" tabindex="-1">Graduate Expo 2011</a></li>
-      </ol>
-    </div>
+    
+	<?php print render($page['newsbanner']); ?>
 
     <div class="main col-6" id="main-content" role="main">
 
@@ -141,48 +98,14 @@
     </div>
 
     <div class="aside col-2">
-      <h2>Opening hours</h2>
-      <blockquote class="opening-hours">
-        <p>We are open from 8.45am until 3pm Monday to Friday, or by appointment with an advisor.</p>
-      </blockquote>
-      <h2>News &amp; information</h2>
-      <ul class="news">
-        <li><a href="#">Our partners in Japan</a> <span class="timestamp">Jul 14, 2010</span></li>
-        <li><a href="#">Our partners in Solo</a> <span class="timestamp">Jul 12, 2010</span></li>
-      </ul>
+      <?php print render($page['aside']); ?>
     </div>
     <hr>
   </div>
   <hr>
   <div class="footer">
-    <div id="local" class="wrapper">
-      <p class="footertitle">The Graduate School of Foo</p>
-      <div id="org-details" class="col-2">
-        <p><strong>The Faculty of Bar</strong></p>
-        <p class="location">Level 4, 198 Berkely Street <br> The University of Melbourne <br>Parkville 3010 VIC Australia</p>
-      </div>
-
-      <ul class="col-2">
-        <li><strong>Phone:</strong> +61 3 8344 1670</li>
-        <li><strong>Fax:</strong> +61 3 8344 1670</li>
-        <li><strong>Email:</strong> <a href="#">Make an enquiry</a></li>
-        <li class="social"><a class="facebook" href="#">Facebook</a> <a class="twitter" href="#">Twitter</a></li>
-      </ul>
-
-      <ul class="col-2">
-        <li><strong>Authoriser:</strong>
-          <br>Communcations Manager</li>
-        <li><strong>Maintainer:</strong><br>
-          Pat Doe, Faculty of Bar</li>
-      </ul>
-
-      <ul class="col-2">
-        <li><strong>Date created:</strong><br>
-          11 February 2010</li>
-        <li><!--#config timefmt="%d %B %Y %H:%M:%S" --><strong>Last modified:</strong><br>
-			<!--#echo var="LAST_MODIFIED" --></li>
-      </ul>
-      <hr>
+    <div id="local" class="wrapper">  
+ 	  <?php print render($page['footer']); ?> 
     </div>
     <hr>
   </div>
