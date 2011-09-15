@@ -32,3 +32,42 @@ function unimelb_preprocess_html(&$variables, $hook) {
 	/* */
 
 }
+
+
+/**
+ * Override theme_status_messages to suit the stlye and classes in unimelb template
+ * 
+ * Original template
+ * http://api.drupal.org/api/drupal/includes--theme.inc/function/theme_status_messages/7
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ */
+function unimelb_status_messages($variables) {
+  $display = $variables['display'];
+  $output = '';
+
+  $status_heading = array(
+    'status' => t('Status message'), 
+    'error' => t('Error message'), 
+    'warning' => t('Warning message'),
+  );
+  foreach (drupal_get_messages($display) as $type => $messages) {
+    $output .= "<div class=\"message $type\">\n";
+    if (!empty($status_heading[$type])) {
+      $output .= '<p><strong>' . $status_heading[$type] . "</strong></p>\n";
+    }
+    if (count($messages) > 1) {
+      $output .= " <ul>\n";
+      foreach ($messages as $message) {
+        $output .= '  <li>' . $message . "</li>\n";
+      }
+      $output .= " </ul>\n";
+    }
+    else {
+      $output .= $messages[0];
+    }
+    $output .= "</div>\n";
+  }
+  return $output;
+}

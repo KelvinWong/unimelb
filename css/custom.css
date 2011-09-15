@@ -34,3 +34,15 @@ html.overlay-open body{
     margin-top: 60px !important;
 	position: inherit !important;
 }
+
+/* override system.css for error message */
+div.error {
+    background: url("../images/error-bg.png") no-repeat scroll 2% 50% #FFE6E5;
+    border: 1px solid #DFA19F;
+    color: #660000;
+}
+
+/* avoid error images to show in input fields */
+input.error{
+    background: none;
+}
