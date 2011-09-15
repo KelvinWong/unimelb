@@ -4,7 +4,12 @@ description = Web Branding for The University of Melbourne is defined by the <a 
 package = Core
 core = 7.x
 engine = phptemplate
+stylesheets[all][] = css/complete.css
 stylesheets[all][] = css/custom.css
+
+
+scripts[] = js/navigation.js
+scripts[] = js/newsbanner.js
 
 regions[header]     = Header
 regions[headingtext]= Heading text
