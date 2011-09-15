@@ -1,9 +1,21 @@
-; $Id: unimelb.info,v 1.0 2011/09/13 00:00:00 media insights Exp $
 name = Unimelb
 description = Web Branding for The University of Melbourne is defined by the <a href="http://marcom.unimelb.edu.au">Marketing and Communications Web Team</a>. 
-package = Core
+
 core = 7.x
 engine = phptemplate
+
+regions[header]			= Header
+regions[headingtext]	= Heading text
+regions[newsbanner]		= Newsbanner
+regions[content]		= Content
+regions[sidebar_first]	= First sidebar
+regions[sidebar_second]	= Second sidebar
+regions[footer] 		= Footer
+regions[footernav]		= Footer Nav
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
 stylesheets[all][] = css/complete.css
 stylesheets[all][] = css/custom.css
 
@@ -11,12 +23,7 @@ stylesheets[all][] = css/custom.css
 scripts[] = js/navigation.js
 scripts[] = js/newsbanner.js
 
-regions[header]     = Header
-regions[headingtext]= Heading text
-regions[newsbanner] = Newsbanner
-regions[content]    = Content
-regions[aside]      = Aside
-regions[footer]     = Footer
-regions[footernav]  = Footer Nav
-regions[page_top]       = Page top
-regions[page_bottom]    = Page bottom
+
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "unimelb"
